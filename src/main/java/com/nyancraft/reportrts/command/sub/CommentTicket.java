@@ -64,8 +64,8 @@ public class CommentTicket {
 
 
         // Clean up arguments before combining the remaining into a comment.
-        args[0] = null;
-        args[1] = null;
+        args[0] = "";
+        args[1] = "";
 
         String comment = String.join(" ", args).trim();
 

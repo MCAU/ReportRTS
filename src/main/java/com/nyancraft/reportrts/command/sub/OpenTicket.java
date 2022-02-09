@@ -80,8 +80,8 @@ public class OpenTicket {
             }
         }
 
-        args[0] = null;
-        String message = String.join(" ", args);
+        args[0] = "";
+        String message = String.join(" ", args).trim();
 
         // Prevent duplicate requests by comparing UUID and message to other currently open requests.
         if(plugin.ticketPreventDuplicate) {

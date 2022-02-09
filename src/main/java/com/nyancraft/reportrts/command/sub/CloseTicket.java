@@ -73,9 +73,9 @@ public class CloseTicket {
             return true;
         }
 
-        args[0] = null;
+        args[0] = "";
         int commentId = 0;
-        String comment = String.join(" ", args);
+        String comment = String.join(" ", args).trim();
         String name = sender.getName();
 
         long timestamp = System.currentTimeMillis() / 1000;
