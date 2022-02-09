@@ -4,7 +4,7 @@ import com.nyancraft.reportrts.RTSFunctions;
 import com.nyancraft.reportrts.ReportRTS;
 import org.bukkit.Bukkit;
 
-import javax.xml.bind.DatatypeConverter;
+import jakarta.xml.bind.DatatypeConverter;
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;

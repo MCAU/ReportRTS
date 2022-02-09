@@ -1,6 +1,7 @@
 name: ${name}
 main: com.nyancraft.reportrts.ReportRTS
 version: ${version}
+api-version: 1.13
 author: ProjectInfinity
 softdepend: [Vault, ProtocolLib]
 commands:
